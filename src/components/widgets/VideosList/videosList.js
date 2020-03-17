@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
 import './videosList.css';
-import axios from 'axios';
-import {URL} from '../../../config';
 import Button from '../Buttons/buttons';
 import VideosTemplate from './videosListTemplate';
 import {firebaseTeams,firebaseLooper,firebaseVideos} from '../../../firebase'
